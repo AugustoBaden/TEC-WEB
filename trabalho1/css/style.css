@@ -1,0 +1,499 @@
+﻿/* CSS escrito por Francisco Wesley Melo Silva*/
+
+
+
+body{
+	font-family: 'Exo', sans-serif;
+}
+p{
+
+}
+
+h1{
+
+	color: #0519b0;
+	display:inline;
+	background-color:white;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left:20px;
+	font-family: 'Exo', sans-serif;
+}
+
+h2.container{
+	font-size: 30px;
+	font-weight: bold;
+	color: #0519b0;
+	margin-top: 28px;
+}
+
+h2:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #0519b0;
+	margin: 3px;
+	margin-bottom: 28px;
+}
+
+h3{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+button{
+	color:  rgba(255, 255, 255, 0.9);
+	background: #0519b0;
+	border: 2px solid white;
+	font-weight: bold;
+	float: right;
+	margin-top: 20px;
+	margin-right: 35px;
+	padding: 5px 35px 5px 35px;
+	font-weight: bolder;
+	border-radius: 4px;
+}
+
+.logo{
+	display: inline-block;
+	float: left;
+	margin-top: 14px;
+	height: 40px;
+	width: 40px;
+}
+span{
+	font-weight: bold;
+	padding: 6px;
+
+}
+
+header {
+	text-align: right;
+	background: #0519b0;
+}
+
+ul a li{
+	display: inline-block;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	font-family: sans-serif;
+	padding: 6px;
+	margin-top: 20px;
+}
+
+ul a li.menu-ativo{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bolder;
+	/*color: gray;*/
+	text-decoration: underline;
+}
+
+
+li{
+	color: white;
+}
+
+li:hover {
+	color: black;
+}
+
+.cover{
+	display: block;
+	width: 100%;
+	margin-top: 12px;
+	background: url("../imagens/cover.jpg") no-repeat center;
+	background-size: auto 100vh;
+	height: 100vh;
+	margin-bottom: 16px;
+	text-align: center;
+
+}
+
+.photo{
+	width: 200px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.areas{
+	background-color: #0519b0;
+	text-align: center;
+	padding-left: 14px;
+	margin-bottom: 16px;
+}
+
+.sub-area{
+	color: white;
+	padding: 6px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 1em;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: 18px;
+
+}
+
+.sub-area h3:after{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 3px;
+	background: white;
+	margin: 6px;
+	margin-left: 120px;
+
+}
+
+}
+
+.sub-area ul li{
+	color: white;
+	border: none;
+}
+
+.sub-area ul li:hover{
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+/*Mapa*/
+
+.mapa{
+	width: 100%
+	height:150px;
+	border:0;
+}
+
+/*Roda-pé*/
+.redes{
+	color: #0519b0;
+	display: inline-block;
+	font-size: 16px;
+	float: right;
+}
+.redes ul {
+	width: 220px;
+}
+
+
+.redes ul a li, .redes ul a li:hover {
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+}
+
+.redes ul a li:hover{
+	opacity: 0.8;
+}
+
+
+
+footer.container{
+	font-size: 20px;
+	margin-top: 20px;
+	background: white;
+	margin-bottom: 30px;
+}
+
+.rodape{
+	border-top: solid;
+	border-width: 3px;
+	border-color: #0519b0;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.rodape p{
+	color: #0519b0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.rodape span{
+	line-height: 1.5em;
+}
+
+section	{
+	padding:  12px;
+	margin-bottom: 16px;
+}
+
+section ul{
+	margin: 14px;
+	padding: 12px;
+
+}
+
+.certificacao ul li{
+	color: white;
+	font-weight: bold;
+	list-style-type:square;
+	border: solid;
+	border-width: 2px;
+	border-color: #0519b0;
+	border-radius: 2px;
+	padding: 3px;
+	margin-left: 40px;
+}
+
+.contato{
+	background-color: #0519b0;
+	padding: 12px;
+	display: block;
+}
+
+.contato form ul li{
+	margin-top: 5px;
+	float: right;
+	border-radius: 2px;
+	font-weight: bold;
+	margin-right: 16px;
+
+}.contato form ul li:hover{
+	color: white;
+}
+
+.contato form ul li:last-child{
+	margin-bottom: 5px;
+}
+
+.contato form input{
+	color: blue;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.form{
+	border-right: 3px dashed white;
+}
+
+form fieldset label{
+	text-align: left;
+	color: white;
+	padding-top: 4px;
+	margin-top: .8em;
+	font-weight: bold;
+	float: left;
+	width: 80px;
+}
+form fieldset input{
+	width: 220px;
+	float: right;
+	border: 2px solid white;
+	margin-top: 8px;
+	margin-right: 30px;
+	background: rgba(255, 255, 255, 0.9);
+	font-weight: bold;
+}
+
+form fieldset textarea{
+	float: right;
+	margin-top: 8px;
+	margin-right: 30px;
+	width: 220px;
+	background: rgba(255, 255, 255, 0.9);
+	font-weight: bold;
+	color: #0519b0;
+	border:none;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.endereco{
+	border-left: 2px dashed white;
+	padding-left: 50px;
+	height: 280px;
+}
+
+.endereco ul{
+	margin-top: 30px;
+}
+
+.endereco ul li{
+	line-height: 25px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.endereco ul li:hover{
+	color: white;
+}
+
+/*CSS de Formação Acadêmica*/
+
+.lista-formacao, .lista-formacao:hover{
+	color: black;
+	font-size: 26px;
+	line-height: 1.8em;
+	padding: 6px;
+}
+
+.lista-ensino, .lista-ensino:hover{
+	color: black;
+	line-height: 1.8em;
+	margin-left: 32px;
+}
+
+.lista-instituicao, .lista-instituicao:hover{
+	color: black;
+	margin-left: 6px;
+	line-height: 1.8em;
+	font-weight: bold;
+}
+
+/*CSS de Interesses*/
+
+.interesses, .interesses:hover {
+	color: black;
+	font-size: 26px;
+	line-height: 1.8em;
+	padding: 6px;
+}
+
+.topico, .topico:hover{
+	color: black;
+	font-size: 20px;
+	line-height: 1.8em;
+	padding: 6px;
+	margin-left: 46px;
+}
+
+.topico-menor, .topico-menor:hover{
+	color: black;
+	font-size: 20px;
+	line-height: .8em;
+	padding: 6px;
+	margin-left: 106px;
+}
+
+/*CSS de Experiências*/
+
+.quadro{
+
+}
+
+.quadro-menor{
+	margin-bottom: 12px;
+}
+
+.quadro-cima{
+	background-color: white;
+	height: 140px;
+	text-align: center;
+	padding-top: 25px;
+	border: 2px solid #0519b0;
+}
+
+.quadro-baixo{
+	background-color: #0519b0;
+	color: white;
+	text-align: center;
+	height: 40px;
+	padding-top: 9px;
+}
+
+.quadro-baixo p{
+	font-weight: bold;
+}
+
+
+/*CSS de competências*/
+
+.competencia_1{
+	color: white;
+	font-weight: bold;
+	height: 150px;
+	text-align: center;
+	background-color: green;
+	padding: 50px 10px 20px 10px;
+	font-size: 25px;
+	margin: 10px 1px 3px 10px;
+}
+
+.competencia_2{
+	color: white;
+	font-weight: bold;
+	height: 150px;
+	text-align: center;
+	background-color: blue;
+	padding: 50px 10px 20px 10px;
+	font-size: 25px;
+	margin: 10px 1px 3px 10px;
+}
+
+.competencia_3{
+	color: white;
+	font-weight: bold;
+	height: 150px;
+	text-align: center;
+	background-color: gray;
+	padding: 50px 10px 20px 10px;
+	font-size: 25px;
+	margin: 10px 1px 3px 10px;
+}
+
+.competencia_4{
+	color: white;
+	font-weight: bold;
+	height: 150px;
+	text-align: center;
+	background-color: purple;
+	padding: 50px 10px 20px 10px;
+	font-size: 25px;
+	margin: 10px 1px 3px 10px;
+}
+
+/*CSS do Saiba Mais*/
+
+.quadro-saiba-mais{
+	background-color: #0519b0;
+	line-height: 1.5em;
+	padding: 14px 18px 18px 18px;
+	height: 14em;
+
+}
+
+div ul li, div ul li:hover{
+	color: white;
+	font-weight: bold;
+	margin-left: 10px;
+	line-height: 1.6em;
+}
+
+/*CSS do Contato*/
+
+button:hover{
+	color: #33b5ec;
+	background-color: white;
+}
+
+.lugar:hover{
+	color: white;
+	padding:none;
+	margin:none;
+}
+
+textarea{
+	resize: none;
+}
+
+.modifica-altura{
+	height: auto;
+	padding-top: 0;
+}
+
+.certificados ul li, .certificados ul li:hover{
+	color: black;
+	border: none;
+}
+
+.certificados ul{
+	border: 2px solid #0099CC;
+}
